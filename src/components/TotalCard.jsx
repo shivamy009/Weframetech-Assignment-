@@ -4,6 +4,8 @@ import { Medicine } from './Data'
 import Card from './Card'
 import PriceSlider from './PriceRange'
 import RangeSlider from './Reactslider'
+import { IoArrowBackOutline } from "react-icons/io5";
+import { IoMdArrowRoundForward } from "react-icons/io";
 
 const TotalCard = () => {
     console.log(Medicine)
@@ -16,7 +18,15 @@ const TotalCard = () => {
       )
     })
    }
-
+<div className=' flex justify-start space-x-5 items-center mb-5 cursor-pointer'>
+    <IoArrowBackOutline/>
+    <h1 className=''>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>...</h1>
+    <h1>12</h1>
+    <IoMdArrowRoundForward/>
+   </div>
       
     </div>
   )
